@@ -149,7 +149,7 @@ a {
 
 .btn:hover {
   color: var(--white);
-  background: var(--primary-700);
+  background: var(--grey-900);
   box-shadow: var(--shadow-2);
 }
 button.small {
@@ -387,9 +387,10 @@ form > :last-child {
 .delete-btn,
 .edit-link {
   background: transparent;
-  font-size: 0.75rem;
+  font-size: 1rem;
   border: transparent;
   cursor: pointer;
+  font-weight: 700;
 }
 .edit-link {
   color: var(--green-dark);
